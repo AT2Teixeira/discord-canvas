@@ -3,8 +3,8 @@ const Greeting = require("./Base");
 module.exports = class Welcome extends Greeting {
     constructor() {
         super();
-        this.textTitle = "WELCOME";
-        this.textMessage = "Welcome to {server}";
-        this.colorTitle = "#03A9F4";
+        this.textTitle = "Olá";
+        this.textMessage = "Bem Vindo(a) ao {server}";
+        this.colorTitle = "#e403f4";
     }
 };
