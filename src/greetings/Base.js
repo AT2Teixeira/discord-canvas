@@ -4,7 +4,7 @@ const { formatVariable, applyText } = require("../../utils/functions");
 module.exports = class Greeting {
 
     constructor() {
-        this.username = "AT2#8276";
+        this.username = "Membro#XXXX";
         this.guildName = "Server";
         this.colorTitleBorder = "#000000";
         this.colorMemberCount = "#ffffff";
@@ -13,17 +13,17 @@ module.exports = class Greeting {
         this.backgroundImage = `${__dirname}/../../assets/img/1px.png`;
         this.avatar = `${__dirname}/../../assets/img/default-avatar.png`;
         this.opacityBorder = "0.4";
-        this.colorBorder = "#000000";
+        this.colorBorder = "#7e00aa";
         this.colorUsername = "#ffffff";
-        this.colorUsernameBox = "#000000";
+        this.colorUsernameBox = "#7e00aa";
         this.opacityUsernameBox = "0.4";
         this.discriminator = "XXXX";
         this.colorDiscriminator = "#ffffff";
         this.opacityDiscriminatorBox = "0.4";
-        this.colorDiscriminatorBox = "#000000";
+        this.colorDiscriminatorBox = "#7e00aa";
         this.colorMessage = "#ffffff";
         this.colorHashtag = "#ffffff";
-        this.colorBackground = "000000";
+        this.colorBackground = "7e00aa";
     }
 
     setAvatar(value) {
