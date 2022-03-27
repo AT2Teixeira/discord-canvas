@@ -4,7 +4,7 @@ const { formatVariable, applyText } = require("../../utils/functions");
 module.exports = class Greeting {
 
     constructor() {
-        this.username = "AT2";
+        this.username = "AT2#8276";
         this.guildName = "Server";
         this.colorTitleBorder = "#000000";
         this.colorMemberCount = "#ffffff";
