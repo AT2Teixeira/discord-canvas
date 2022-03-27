@@ -8,22 +8,22 @@ module.exports = class Greeting {
         this.guildName = "Server";
         this.colorTitleBorder = "#000000";
         this.colorMemberCount = "#ffffff";
-        this.textMemberCount = "- {count}º membro!";
+        this.textMemberCount = "{count}º membro!";
         this.memberCount = "0";
         this.backgroundImage = `${__dirname}/../../assets/img/1px.png`;
         this.avatar = `${__dirname}/../../assets/img/default-avatar.png`;
         this.opacityBorder = "0.4";
-        this.colorBorder = "#7e00aa";
+        this.colorBorder = "#000000";
         this.colorUsername = "#ffffff";
-        this.colorUsernameBox = "#7e00aa";
+        this.colorUsernameBox = "#000000";
         this.opacityUsernameBox = "0.4";
         this.discriminator = "XXXX";
         this.colorDiscriminator = "#ffffff";
         this.opacityDiscriminatorBox = "0.4";
-        this.colorDiscriminatorBox = "#7e00aa";
+        this.colorDiscriminatorBox = "#000000";
         this.colorMessage = "#ffffff";
         this.colorHashtag = "#ffffff";
-        this.colorBackground = "7e00aa";
+        this.colorBackground = "#000000";
     }
 
     setAvatar(value) {
